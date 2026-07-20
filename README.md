@@ -2,8 +2,6 @@
 
 A handheld device that detects a guitar string's pitch and physically rotates the tuning peg until the string is in tune. Built around a custom ESP32-S3 PCB designed from schematic capture to routed layout, with real-time pitch detection firmware and closed-loop servo control. Tunes to within ±12 cents across all six strings and multiple tuning standards (Standard, Eb, Drop D, Open G).
 
-ECE 445 Senior Design, UIUC — built with Daniel Cho and Timothy Park.
-
 <img width="749" height="491" alt="Screenshot 2026-07-20 at 3 30 26 PM" src="https://github.com/user-attachments/assets/685666df-b003-4b2e-a9de-a5b04610d845" />
 
 ## How it works?
