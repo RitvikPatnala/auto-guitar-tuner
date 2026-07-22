@@ -27,6 +27,11 @@ The pipeline: Hann window → autocorrelation over the guitar's lag range (73–
 
 - Power: dual AP62150 buck converters (9V battery → 5V and 3.3V rails). Chosen over LDOs after a dissipation analysis — a stalled servo draws 800 mA, which would burn 3.2 W in an LDO vs ~90% buck efficiency.
 - Custom PCB: designed in KiCAD (schematic → layout), simulated in LTSpice; noise mitigated with ground partitioning, supply decoupling, and the RC input filter.
+
+<img width="1167" height="794" alt="Screenshot 2026-07-21 at 8 55 34 PM" src="https://github.com/user-attachments/assets/7e43bce2-07ff-4429-8112-eaeafcd312ae" />
+
+<img width="793" height="683" alt="Screenshot 2026-07-21 at 8 56 06 PM" src="https://github.com/user-attachments/assets/79170432-f1c7-4735-829e-0fb514777db7" />
+
 - Motor: HS-318 analog servo, selected over a stepper for closed-loop position feedback and full torque at low speed. Torque analysis: 0.25 kg·cm required at the peg vs 3.7 kg·cm available.
 
 ## Verification Highlights
